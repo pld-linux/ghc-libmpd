@@ -1,12 +1,12 @@
 %define		pkgname	libmpd
 Summary:	A Haskell binding to the libmpd graphics library
 Name:		ghc-%{pkgname}
-Version:	0.9.0.1
+Version:	0.9.0.6
 Release:	1
 License:	BSD
 Group:		Development/Languages
 Source0:	http://hackage.haskell.org/packages/archive/%{pkgname}/%{version}/%{pkgname}-%{version}.tar.gz
-# Source0-md5:	91f3bb968ee1340b48fa2dc5416c446a
+# Source0-md5:	c33ebf0ef8e10d902579a2ec860e91fe
 URL:		http://hackage.haskell.org/package/libmpd/
 BuildRequires:	ghc >= 6.12.3
 BuildRequires:	ghc-mtl < 2.2
