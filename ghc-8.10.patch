@@ -1,0 +1,18 @@
+--- libmpd-0.9.1.0/libmpd.cabal~	2020-01-27 07:10:31.000000000 +0100
++++ libmpd-0.9.1.0/libmpd.cabal	2020-05-27 00:20:31.429246130 +0200
+@@ -45,7 +45,6 @@
+       , containers >= 0.3 && < 1
+       , filepath >= 1 && < 2
+       , mtl >= 2.0 && < 3
+-      , old-locale >= 1 && < 2
+       , text >= 0.11 && < 2
+ 
+         -- Additional dependencies
+@@ -121,7 +120,6 @@
+       , containers
+       , filepath
+       , mtl
+-      , old-locale
+       , text
+       , time
+ 
